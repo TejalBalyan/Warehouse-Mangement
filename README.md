@@ -22,13 +22,13 @@ This project is a full-stack web application designed for managing warehouse ite
 ## **Thought Process & Approach**
 
 ### **Initial Research and Planning**
-The project began with outlining the core functionalities required in a warehouse management system, such as item and location management, stock monitoring, and category-wise filtering. The design was focused on providing a simple and efficient interface for users to track inventory and manage warehouse locations seamlessly.
+The project began with outlining the core functionalities required in a warehouse management system, such as item and location management, stock monitoring, and category-wise filtering. The design was focused on providing a simple and efficient interface for users to track inventory and manage warehouse locations seamlessly.(la folder)
 
 ### **Backend Design**
 The backend follows a **RESTful architecture**, using **Node.js** and **Express** to handle requests and **MongoDB** to store warehouse data. Key API routes manage items, locations, and stock levels. MongoDB was chosen due to its flexibility in handling dynamic schema changes, which is ideal for this warehouse inventory system.
 
 ### **Frontend Design**
-The frontend is built using **React**, which enables a responsive and dynamic user interface. React components are used for rendering warehouse items and locations, while **Redux** manages state, ensuring that data flows seamlessly between the frontend and backend.
+The frontend is built using **React**, which enables a responsive and dynamic user interface. React components are used for rendering warehouse items and locations, while **Redux** manages state, ensuring that data flows seamlessly between the frontend and backend.(bla folder)
 
 ### **Challenges & Solutions**
 A key challenge was ensuring **real-time updates** of inventory levels across multiple warehouses. This was handled by implementing **WebSocket connections**, which reflect changes instantly on the frontend without requiring manual page refreshes.
