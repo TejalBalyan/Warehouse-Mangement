@@ -42,9 +42,10 @@ One key challenge was ensuring real-time updates of inventory levels across mult
    git clone https://github.com/yourusername/warehouse-management.git
 Navigate to the backend directory:
 
-
+```bash
 cd la
 Install dependencies:
+```bash
 npm install
 
 Create a .env file in the la folder and add the following environment variables:
@@ -54,14 +55,17 @@ PORT=5000
 MONGO_URI=mongodb://localhost:27017/warehouse
 
 Start the backend server:
+```bash
 npm start
 Frontend Setup
 Navigate to the frontend directory:
-cd ../la
+```bash
+cd ../bla
 Install dependencies:
-
+```bash
 npm install
 Start the React development server:
+```bash
 npm start
 Open the browser and go to http://localhost:3000 to access the frontend.
 
@@ -70,11 +74,12 @@ Prerequisites
 Docker installed
 Steps
 Build and run the Docker containers:
+```bash
 docker-compose up --build
 The backend will be accessible at http://localhost:5000 and the frontend at http://localhost:3000.
 
 To stop the containers:
-
+```bash
 docker-compose down
 Using Docker without Rebuilding Each Time
 To avoid rebuilding the Docker image with every code change, mount your local directories as volumes in docker-compose.yml:
