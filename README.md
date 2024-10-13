@@ -11,8 +11,10 @@ This project is a full-stack web application designed for managing warehouse ite
 ---
 ## **Deployment**
 
--link:
+-link:https://warehouse-mangement-khyn.vercel.app/
+
 -Email:user@example.com
+
 -Password:password123
 
 ---
