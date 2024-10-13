@@ -9,6 +9,13 @@ Sure! Here’s the README with the commands written out in plain text instead of
 This project is a full-stack web application designed for managing warehouse items and locations. It allows users to add, update, and remove items, monitor stock levels, and track stock locations. The backend is built using **Node.js**, **Express**, and **MongoDB**, while the frontend is developed with **React** to provide a dynamic and user-friendly interface.
 
 ---
+## **Deployment**
+
+-link:
+-Email:user@example.com
+-Password:password123
+
+---
 
 ## **Thought Process & Approach**
 
@@ -103,14 +110,7 @@ services:
 
 ---
 
-## **Deployment**
 
-The project is deployed using **Docker** on a cloud platform like **AWS** (or another cloud provider). The live application can be accessed at the following URLs:
-
-- **Frontend**: http://your-frontend-url.com
-- **Backend**: http://your-backend-url.com
-
----
 
 ## **Troubleshooting**
 
