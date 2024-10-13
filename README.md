@@ -121,20 +121,3 @@ The project is deployed using **Docker** on a cloud platform like **AWS** (or an
   `taskkill /PID <PID> /F`
 
 ---
-
-## **Contributing**
-
-If you'd like to contribute to this project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   `git checkout -b feature-branch`
-
-3. Make your changes and commit them:
-   `git commit -m "Add feature"`
-
-4. Push the branch to your forked repository:
-   `git push origin feature-branch`
-
-5. Open a pull request.
-
