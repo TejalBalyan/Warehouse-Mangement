@@ -6,7 +6,7 @@ Sure! Here’s the README with the commands written out in plain text instead of
 
 ## **Introduction**
 
-This project is a full-stack web application designed for managing warehouse items and locations. It allows users to add, update, and remove items, monitor stock levels, and track stock locations. The backend is built using **Node.js**, **Express**, and **MongoDB**, while the frontend is developed with **React** to provide a dynamic and user-friendly interface.
+This project is a full-stack web application designed for managing warehouse items and locations. The backend is built using **Node.js**, **Express**, and **MongoDB**, while the frontend is developed with **React** to provide a dynamic and user-friendly interface.
 ---
 ## **Video-link**
 https://drive.google.com/file/d/1GikZI9CpEAnQo6i5WFefyyRDZvoOyxhP/view?usp=sharing
@@ -24,10 +24,10 @@ https://drive.google.com/file/d/1GikZI9CpEAnQo6i5WFefyyRDZvoOyxhP/view?usp=shari
 ## **Thought Process & Approach**
 
 ### **Initial Research and Planning**
-The project began with outlining the core functionalities required in a warehouse management system, such as item and location management, stock monitoring, and category-wise filtering. The design was focused on providing a simple and efficient interface for users to track inventory and manage warehouse locations seamlessly.(la folder)
+The project began with outlining the core functionalities required in a warehouse management system, such as item and location management and stock monitoring. The design was focused on providing a simple and efficient interface for users to track inventory and manage warehouse locations seamlessly.
 
 ### **Backend Design**
-The backend follows a **RESTful architecture**, using **Node.js** and **Express** to handle requests and **MongoDB** to store warehouse data. Key API routes manage items, locations, and stock levels. MongoDB was chosen due to its flexibility in handling dynamic schema changes, which is ideal for this warehouse inventory system.
+The backend follows a **RESTful architecture**, using **Node.js** and **Express** to handle requests and **MongoDB** to store warehouse data. Key API routes manage items, locations, and stock levels. MongoDB was chosen due to its flexibility in handling dynamic schema changes, which is ideal for this warehouse inventory system.(la folder)
 
 ### **Frontend Design**
 The frontend is built using **React**, which enables a responsive and dynamic user interface. React components are used for rendering warehouse items and locations, while **Redux** manages state, ensuring that data flows seamlessly between the frontend and backend.(bla folder)
@@ -103,25 +103,6 @@ A key challenge was ensuring **real-time updates** of inventory levels across mu
 ### **Using Docker without Rebuilding Each Time**
 To avoid rebuilding the Docker image with every code change, mount your local directories as volumes in the `docker-compose.yml` file:
 ```yaml
-services:
-  backend:
-    volumes:
-      - ./warehouse-backend:/app
-  frontend:
-    volumes:
-      - ./warehouse-frontend:/app
-```
-
 ---
 
 
-
-## **Troubleshooting**
-
-- **MongoDB connection error**: Ensure MongoDB is running locally or update the `MONGO_URI` in your `.env` file to point to your MongoDB instance.
-  
-- **Port binding error**: If you encounter a "port already in use" error, kill the process occupying the port:
-  `netstat -ano | findstr :5000`
-  `taskkill /PID <PID> /F`
-
----
